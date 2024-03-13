@@ -1,0 +1,91 @@
+body {
+  text-align: center;
+  font-family: "Arial", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #e2d8ff;
+}
+.left {
+  text-align: left;
+}
+.right {
+  text-align: right;
+}
+.logo_top {
+  margin: 0.6em 1em 0.6em 1em;
+  width: 8em;
+}
+.bold {
+  font-family: "Arial", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+header {
+  background-color: #ffffff;
+  color: rgb(73, 186, 252);
+}
+a:link,
+a:visited {
+  text-decoration: none;
+  color: rgb(86, 52, 207);
+}
+nav {
+  padding: 0.6em;
+  background-color: #97a6fc;
+}
+nav > a {
+  margin: 0.8em;
+}
+#title {
+  color: rgb(0, 0, 0);
+  margin: 2em;
+}
+h1 {
+  margin: 1em;
+  font-size: 2em;
+}
+h3 {
+  margin: 1em;
+  font-size: 1.3em;
+}
+h2 {
+  font-size: 1.5em;
+  display: inline;
+}
+#gift {
+  margin: 2em;
+  padding: 1.8em;
+  background-color: rgb(194, 170, 250);
+}
+.button {
+  display: inline;
+}
+.circle {
+  margin: 1.5em;
+  max-height: 25em;
+  display: inline-block;
+  border-radius: 10%;
+  box-shadow: 12px 15px 4px -8px rgba(0, 0, 0, 0.1);
+}
+
+.ab:link,
+.ab:visited {
+  color: #a643f7;
+}
+
+footer {
+  padding: 2em 0 2em 0;
+  background-color: #ffffff;
+}
+.logo_bottom {
+  margin: 2em;
+  width: 5em;
+}
+footer > a {
+  padding: 1em;
+  margin-top: 3em;
+  display: block;
+  background-color: #97a6fc;
+}

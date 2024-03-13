@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="ToDo_YourList" />
+    <title>ToDo/YourLists/YourTasks</title>
+    <link rel="stylesheet" href="assets/reset.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <img class="logo_top" src="assets/logo_todo.png" />
+      <h1 class="bold">ToDo: We Help You To Do!</h1>
+      <nav>
+        <a href="https://epicode.com/it/" target="_blank">View Your Profile</a>
+        <a href="https://epicode.com/it/" target="_blank"
+          >Time Menagement Tips</a
+        >
+        <a href="https://epicode.com/it/" target="_blank">Quick Guide</a>
+      </nav>
+    </header>
+    <main id="title">
+      <h3 class="bold">Don't Give Up!</h3>
+      <div id="gift">
+        <div class="left">
+          <h2>ListName</h2>
+        </div>
+        <div class="right">
+          <a class="ab bold" href="https://epicode.com/it/" target="_blank"
+            >List Settings</a
+          >
+        </div>
+        <input id="input" type="text" placeholder="Add your Task" />
+        <button type="submit">+</button>
+        <div id="list" class="left">
+          <h3>To Do:</h3>
+          <ul>
+            <li>TASK_1</li>
+            <button class="button" type="submit">-</button>
+            <li>TASK_2</li>
+            <li>TASK_3</li>
+          </ul>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div>
+        <a class="bold" href="https://epicode.com/it/" target="_blank"
+          >Shop Our New Desk Planners!</a
+        >
+      </div>
+      <div>
+        <img class="circle" src="assets/img_2.webp" />
+        <img class="circle" src="assets/img_3.jpg" />
+        <img class="circle" src="assets/img_1.jpg" />
+      </div>
+      <a class="bold" href="https://epicode.com/it/" target="_blank"
+        >Back to Top</a
+      >
+      <div>
+        <img class="logo_bottom" src="assets/logo_todo.png" />
+      </div>
+    </footer>
+    <script>
+      const list = document.querySelector("list");
+      const toDo = document.createElement("task");
+      const button = document.createElement("button");
+    </script>
+  </body>
+</html>
